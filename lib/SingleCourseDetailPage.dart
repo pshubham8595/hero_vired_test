@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:hero_vired_test/test.dart';
 import 'package:provider/provider.dart';
 
-import 'controllers/SingleCourseDetailController.dart';
+import 'notifiers/SingleCourseDetailController.dart';
 import 'models/SingleCourseDataModel.dart';
 
 class SingleCourseDetailPage extends StatefulWidget {

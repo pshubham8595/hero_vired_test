@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:hero_vired_test/controllers/CoursesDetailNotifier.dart';
-import 'package:hero_vired_test/controllers/SingleCourseDetailController.dart';
+import 'package:hero_vired_test/notifiers/CoursesDetailNotifier.dart';
+import 'package:hero_vired_test/notifiers/SingleCourseDetailController.dart';
 import 'package:provider/provider.dart';
 
 import 'SingleCourseDetailPage.dart';

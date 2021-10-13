@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 
 import 'CoursesDetail.dart';
-import 'controllers/CoursesDetailNotifier.dart';
+import 'notifiers/CoursesDetailNotifier.dart';
 
 class RootPage extends StatefulWidget {
   @override
