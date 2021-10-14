@@ -81,3 +81,34 @@ class WebServices{
     return statusMap;
   }
 }
+
+//Shop Act
+//Registration
+//CA Firm Start
+//Startup India through
+//Register firm name and logo
+//Data security certification
+//Travelling certificate
+//Online payment certification
+//ISO certification
+//Pvt ltd/Partnership/LLP/sole purpose entership
+//Current account
+//Single owner company
+//Udyog Adhar
+//Proprietor ship license
+//queuekyun domain
+
+//Register under startup india for 5 year Tax beifits (If idea is unique)
+//If starting within 2 people go for LLP
+//Type of companies
+//  Proprietor Ship - Less Compliances Shop Act, MSME,GST (if crossing 40 lac yearly turnover) Tax Acc to income slab 3k Mutual understanding Bond
+//  One person Company (Between Partnership - Proprietor Ship)
+//  Partnership - Min 2  Flat 30 % Tax() (Registered under State Gov) 5k
+//  LLP - Buisness name stays unique and that Name can't be used by any other company,Annual Compliances ,AGM ,Director KYC (Registered under Central Gov)
+//        10k,(DEN no)(Director Identification Number)
+//  Pvt Ltd - Name stands Unique as well,(Registered under Central Gov) 12k
+//  OD account and CC Account Audit.
+//
+
+
+

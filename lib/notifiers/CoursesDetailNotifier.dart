@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:hero_vired_test/models/CourseDataModel.dart';
-import 'package:hero_vired_test/webservices.dart';
+import 'package:hero_vired_test/webservices/webservices.dart';
 
 class CoursesDetailNotifier extends ChangeNotifier{
 

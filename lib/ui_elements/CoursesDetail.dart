@@ -4,8 +4,9 @@ import 'package:hero_vired_test/notifiers/CoursesDetailNotifier.dart';
 import 'package:hero_vired_test/notifiers/SingleCourseDetailController.dart';
 import 'package:provider/provider.dart';
 
-import 'SingleCourseDetailPage.dart';
-import 'models/CourseDataModel.dart';
+import '../utils/Constants.dart';
+import '../pages/SingleCourseDetailPage.dart';
+import '../models/CourseDataModel.dart';
 
 class CoursesDetail extends StatefulWidget {
 
@@ -56,18 +57,7 @@ class _CoursesDetailState extends State<CoursesDetail> {
           return singleListItem(notifier.courseList[index]);
 
         })):Expanded(
-          child: new Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              new CircularProgressIndicator(
-
-                valueColor:  AlwaysStoppedAnimation<Color>(Theme.of(context).primaryColor),
-                strokeWidth: 1,
-              ),
-              new SizedBox(height: 10,),
-              new Text("Loading..",style: GoogleFonts.montserrat(color: Theme.of(context).primaryColor,fontWeight: FontWeight.w400,fontSize: 15),),
-            ],
-          ),
+          child: Constants.loadingColumn(context),
         )
       ],
     ),

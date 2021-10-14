@@ -3,6 +3,8 @@ import 'package:hero_vired_test/models/ModulesDataModel.dart';
 class SingleCourseDataModel{
   String name;
   List <ModulesDataModel> modulesList;
+  // Map modulesMap = modulesList.asMap(); // {0: 'apple', 1: 'orange', 2: 'mango'}
+
   int section;
 
   SingleCourseDataModel({this.name, this.modulesList, this.section});
